@@ -1,0 +1,312 @@
+@media only screen and (max-width: 2900px) {
+
+body, footer{
+    width:100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-color: azure;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+
+}
+
+h1{
+    margin-left: 50px;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+header nav{
+    position: relative;
+    top:65px;
+}
+
+header nav ul{
+    margin-right: 60px;
+}
+header nav li{
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav a{
+     color: black;
+     font-weight: bold;
+     font-size: 16px;
+     text-decoration: none;
+}
+
+header nav a:hover{
+    color: rgb(163, 68, 68);
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+#foto{
+    width: 30%;
+}
+
+.presentacion{
+    background-color: azure;
+    height: 400px;
+}
+#texto{
+    margin-right: 100px;
+    width: 50%;
+    float: left;
+}
+
+h2 {
+    padding-top: 20px;
+    font-size: 40px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 20px;
+    font-weight: 100;
+    margin-left: 50px;
+    margin-bottom: 18px;
+}
+
+.presentacion nav{
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+
+.presentacion nav a{
+     color: black;
+     font-size: 16px;
+     text-decoration: none;
+     padding-right: 20px;
+}
+
+.presentacion nav a:hover{
+    color: rgb(163, 68, 68);
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.presentacion nav li{
+    display: inline;
+}
+
+#foto{   
+    float: left;
+    height: 400px;
+    
+    
+}
+#fotos{
+    width: 80%;
+    border-radius: 50%;
+
+}
+
+#sobreMi{
+    background-color: blanchedalmond;
+    height: 400px;
+    
+}
+
+#sobre{
+    width: 70%; 
+}
+
+#skills{
+    height: 400px;
+    background-color: azure;
+}
+
+
+#cuadros{
+    display: -webkit-flex;
+    margin-top: 40px;
+    margin-left: 50px;
+  
+}
+
+.forma{
+    background-color: rgb(164, 228, 248);
+    width: 70px;
+    height: 70px;
+    margin-right:  10px;
+    padding: 66px;
+}
+
+.forma:hover{
+    background-color: rgb(201, 237, 247);
+    border-radius: 5%;
+    width: 75px;
+    height: 75px;
+    transition: background-color .3s;
+}
+
+.icono{
+    width: inherit;
+    transition: 2s all;
+}
+
+#hobbies{
+    height: 400px;
+    background-color: blanchedalmond;
+}
+
+#cuadros2{
+    display: -webkit-flex;
+    margin-top: 40px;
+    margin-left: 50px;
+  
+}
+
+.forma2{
+    background-color: rgb(163, 68, 68);
+    width: 70px;
+    height: 70px;
+    margin-right:  10px;
+    padding: 66px;
+}
+
+.forma2:hover{
+    background-color: rgb(167, 123, 123);
+    border-radius: 5%;
+    width: 75px;
+    height: 75px;
+    transition: background-color .3s;
+}
+
+.icono2{
+    width: inherit;
+    transition: 2s all;
+}
+
+#formacion{
+    height: 400px;
+    background-color: azure;
+}
+
+#estudios{
+    width: 70%; 
+}
+
+#contacto{
+    height: 400px;
+    background-color: blanchedalmond;
+}
+
+#atencion{
+    float: left;
+    margin-left: 300px;
+}
+
+.dibujo{
+    width: 250px;
+    height: 250px;
+}
+
+#formulario{
+    float: left;
+    margin-left: 200px;
+    margin-top: -50px;
+}
+
+.form{
+    width: 400px;
+    margin-top: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+button{
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    margin-top: 5px;
+}
+
+button:hover{
+    background-color: rgb(64, 111, 197);
+    width: 155px;
+    height: 55px;
+    margin-top: 5px;
+}
+
+#pie{
+    background-color: azure;
+    height: 60px;
+}
+
+footer h4{
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+}
+
+@media screen and (max-width: 480px){
+
+
+    h1{
+        text-align: center;
+        font-size: 25px;
+    }
+
+   
+
+    .presentacion{
+        background-color: red;
+        height: 400px;
+    }
+    #texto{
+        margin-right: 100px;
+        width: auto;
+        float: left;
+    }
+    
+    h2 {
+        padding-top: 20px;
+        font-size: 20px;
+        margin-left: 25px;
+        margin-bottom: 20px;
+    }
+    
+    p{
+        font-size: 20px;
+        font-weight: 100;
+        margin-left: 50px;
+        margin-bottom: 18px;
+    }
+    
+    .presentacion nav{
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+    
+    
+    .presentacion nav a{
+         color: black;
+         font-size: 16px;
+         text-decoration: none;
+         padding-right: 20px;
+    }
+    
+    .presentacion nav a:hover{
+        color: rgb(163, 68, 68);
+        font-weight: bolder;
+        text-decoration: underline;
+    }
+    
+    .presentacion nav li{
+        display: inline;
+    }
+
+
+    
+}
